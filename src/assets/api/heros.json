@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Eugene Chen",
+    "title": "VP",
+    "description":"Being awesome",
+    "level": 1
+  },
+  {
+    "name": "Vicki Chow",
+    "title": "Director",
+    "level": 2
+  },
+  {
+    "name": "Celina Au",
+    "title": "Manager",
+    "level": 3
+  },
+  {
+    "name": "Rodney",
+    "title": "Manager",
+    "level": 3
+  }
+]
