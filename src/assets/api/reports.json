@@ -1,8 +1,21 @@
 [
   {
-    "category":"Auth"
+    "category":"Auth",
+    "id":"AuthReport"
+    "title":"Auth Report",
+    "description":"...",
+    "reports":[
+      {
+        "name":"Inpatient Auth Report",
+        "url":"http://example.com"
+      },{
+        "name":"Skilled Nursing Auth Report",
+        "url":"http://example.com"
+      }
+    ]
   },
   {
     "category": "Income Statement"
+    "id":"IncomeStatement"
   }
 ]
