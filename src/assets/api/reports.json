@@ -1,7 +1,6 @@
 [
   {
-    "category":"Auth",
-    "id":"AuthReport"
+    "id":"Auth",
     "title":"Auth Report",
     "description":"...",
     "reports":[
@@ -15,7 +14,7 @@
     ]
   },
   {
-    "category": "Income Statement"
-    "id":"IncomeStatement"
+    "id":"IncomeStatement",
+    "title": "Income Statement"
   }
 ]
