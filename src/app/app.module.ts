@@ -11,6 +11,8 @@ import { routing } from './app.routing';
 import { HomeComponent } from './home/home.component';
 import { ItemsComponent } from './list/items/items.component';
 import { ItemComponent } from './list/item/item.component';
+import { ListComponent } from './team/list/list.component';
+import { HeroComponent } from './team/hero/hero.component';
 
 
 
@@ -20,7 +22,9 @@ import { ItemComponent } from './list/item/item.component';
     NavbarComponent,
     HomeComponent,
     ItemsComponent,
-    ItemComponent
+    ItemComponent,
+    ListComponent,
+    HeroComponent
   ],
   imports: [
     NgbModule.forRoot(),

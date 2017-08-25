@@ -3,7 +3,7 @@ body {
   padding-top: 3.5rem;
 }
 
-.jumbotron {
+.section-header {
   background-image: url("assets/img/rubik_background.jpg");
   color: #ffffff;
   font-family: "Verlag-Book","Helvetica Neue",Helvetica,Arial,sans-serif;

@@ -1,0 +1,15 @@
+<section class="jumbotron text-center">
+  <div class="container">
+    <h1 class="jumbotron-heading">Meet the team</h1>
+    <p class="lead">
+      We're a pun-loving team of folks who take our jobs seriously without taking ourselves too seriously. In everything we do, we strive to put the people we do it for first.
+    </p>
+  </div>
+</section>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4" *ngFor="let hero of heros">
+      <app-hero [hero]="hero"></app-hero>
+    </div>
+  </div>
+</div>
