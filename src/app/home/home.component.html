@@ -1,14 +1,18 @@
-<div class="jumbotron">
+<div class="jumbotron section-header">
   <div class="container">
-    <h1 class="display-3">{{header}}</h1>
+    <p><span>by </span>Eugene Chen<p>
+    <h1>{{header}}</h1>
+    <div class="separator-container">
+      <div class="separator line-separator">✻</div>
+    </div>
     <p>{{subtitle}}</p>
   </div>
 </div>
 
-<div class="container">
+<div class="container marketing">
   <!-- Example row of columns -->
   <div class="row">
-    <div class="col-md-4" *ngFor="let hero of heros">
+    <div class="col-lg-4" *ngFor="let hero of heros">
       <img class="rounded-circle" src="{{hero.photo}}" alt="image" width="140" height="140">
       <h2>{{hero.name}}</h2>
       <p><span class="badge badge-pill badge-dark">{{hero.title}}</span></p>

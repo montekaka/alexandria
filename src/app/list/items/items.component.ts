@@ -10,7 +10,7 @@ import {ItemsServiceService } from '../shared/service/items-service.service'
 })
 export class ItemsComponent implements OnInit {
   id: string;
-  reports = [];
+  reports;
 
   constructor(
     private route: ActivatedRoute,

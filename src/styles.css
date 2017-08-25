@@ -2,3 +2,32 @@
 body {
   padding-top: 3.5rem;
 }
+
+.jumbotron {
+  background-image: url("assets/img/rubik_background.jpg");
+  color: #ffffff;
+  font-family: "Verlag-Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+  height: 600px;
+  text-align: center;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  vertical-align: center;
+}
+
+.section-header .separator {
+  color: #fff;
+  margin: 2em auto;
+}
+
+.section-header h1 {
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  font-size: 4em;
+  font-family: "Slim-Joe";
+  text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, a, .td-name, td {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+}
