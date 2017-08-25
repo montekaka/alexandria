@@ -2,19 +2,21 @@
   {
     "name": "Eugene Chen",
     "title": "VP of Finance",
-    "description":"Being awesome",
+    "description":"The world's foremost healthcare analytics expert whose dynamic leadership is only surpassed by his incredible charisma and charm.",
     "level": 1,
     "photo": "https://s3-us-west-1.amazonaws.com/dsshpe/Eugene+Chen.jpg"
   },
   {
-    "name": "Vicki Chow",
+    "name": "Victoria Kuo",
     "title": "Director of DSS",
+    "description": "",
     "level": 2,
     "photo": "https://s3-us-west-1.amazonaws.com/dsshpe/v_kuo_1739_0%5B1%5D.jpg"
   },
   {
     "name": "Celina Au",
-    "title": "Manager of Data Analytic",
+    "title": "Manager of Data Analytics",
+    "description": "Former NASA nerd now applying her incredible intellect to improve the well being of others.",
     "level": 3,
     "photo": "https://s3-us-west-1.amazonaws.com/dsshpe/Celina+Au.jpg"
   }
