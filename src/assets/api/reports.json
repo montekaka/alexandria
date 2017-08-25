@@ -1,20 +1,47 @@
 [
   {
-    "id":"Auth",
-    "title":"Auth Report",
+    "id":"UM",
+    "title":"Utilization Management",
     "description":"...",
-    "reports":[
+    "report_items":[
       {
-        "name":"Inpatient Auth Report",
+        "name":"Auth Admission",
         "url":"http://example.com"
       },{
-        "name":"Skilled Nursing Auth Report",
+        "name":"IP Acute Auth Readmission",
+        "url":"http://example.com"
+      },{
+        "name":"IP Acute Auth Summary and CRC Hospital",
+        "url":"http://example.com"
+      },{
+        "name":"SNF Auth Summary and CRC Facility",
         "url":"http://example.com"
       }
     ]
   },
   {
-    "id":"IncomeStatement",
-    "title": "Income Statement"
+    "id":"Membership",
+    "title": "Membership",
+    "report_items":[
+      {
+        "name":"Membership and Disenrollment Trend",
+        "url":"http://example.com"
+      },{
+        "name":"Membership by Healthplan Across IPA",
+        "url":"http://example.com"
+      },{
+        "name":"PCP Cap Paid Expense by IPA Trend",
+        "url":"http://example.com"
+      },{
+        "name":"Agein",
+        "url":"http://example.com"
+      },{
+        "name":"Agein",
+        "url":"http://example.com"
+      },{
+        "name":"Membership General",
+        "url":"http://example.com"
+      }
+    ]
   }
 ]

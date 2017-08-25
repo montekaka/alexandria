@@ -1,23 +1,21 @@
 [
   {
     "name": "Eugene Chen",
-    "title": "VP",
+    "title": "VP of Finance",
     "description":"Being awesome",
-    "level": 1
+    "level": 1,
+    "photo": "https://s3-us-west-1.amazonaws.com/dsshpe/Eugene+Chen.jpg"
   },
   {
     "name": "Vicki Chow",
-    "title": "Director",
-    "level": 2
+    "title": "Director of DSS",
+    "level": 2,
+    "photo": "https://s3-us-west-1.amazonaws.com/dsshpe/v_kuo_1739_0%5B1%5D.jpg"
   },
   {
     "name": "Celina Au",
-    "title": "Manager",
-    "level": 3
-  },
-  {
-    "name": "Rodney",
-    "title": "Manager",
-    "level": 3
+    "title": "Manager of Data Analytic",
+    "level": 3,
+    "photo": "https://s3-us-west-1.amazonaws.com/dsshpe/Celina+Au.jpg"
   }
 ]

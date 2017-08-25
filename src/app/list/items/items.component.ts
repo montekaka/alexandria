@@ -19,19 +19,20 @@ export class ItemsComponent implements OnInit {
 
   ngOnInit() {
     this.getURLParameter();
-    this.getReports(this.id);
+    // this.getReports(this.id);
   }
 
   getURLParameter(){
     this.route.params.subscribe(params => {
        this.id = params['id'];
+       this.getReports(params['id']);
        // In a real app: dispatch action to load the details here.
     });
   }
 
   getReports(id:string){
     this.itemsServiceService.getReports().subscribe((data) => {
-    
+
       for(var i = 0; i < data.length; i++){
         if(data[i].id === id){
           this.reports = data[i];
