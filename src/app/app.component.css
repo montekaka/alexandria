@@ -1,0 +1,42 @@
+
+
+/*
+* Section - Benefits
+*/
+
+
+/*
+* Section - Contact
+*/
+
+.contact-card {
+    opacity: 0.98;
+    min-height: 140px;
+}
+.contact-card img {
+    left: 0;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 15;
+}
+.contact-card-block {
+    left: 0;
+    padding: 0 30px 0 175px;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+}
+
+
+/*
+* Footer
+*/
+
+.footer-logo {
+    max-height: 40px;
+}
+.footer-icon-social {
+    bottom: 10px;
+    position: relative;
+}

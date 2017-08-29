@@ -1,23 +1,27 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" routerLink="">DSS</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/team">Team <span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item" ngbDropdown>
-        <a class="nav-link" id="dropdown01" ngbDropdownToggle >Reports</a>
-        <div ngbDropdownMenu aria-labelledby="dropdown01">
-          <a class="dropdown-item" *ngFor="let navItem of navItems" [routerLink]="['/reports', navItem.id]">{{navItem.item}}</a>
-        </div>
-      </li>
-    </ul>
+<nav id="navigation" class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand page-scroll" href="#page-top">
+        DSS
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-kania" aria-controls="navbar-kania" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse flex-row-reverse" id="navbar-kania">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" ngbDropdown>
+          <a class="nav-link" id="dropdown01" ngbDropdownToggle >Reports</a>
+          <div ngbDropdownMenu aria-labelledby="dropdown01">
+            <a class="dropdown-item" *ngFor="let navItem of navItems" [routerLink]="['/reports', navItem.id]">{{navItem.item}}</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/team">Team <span class="sr-only"></span></a>
+        </li>
+      </ul>
+    </div>
   </div>
-</nav>
