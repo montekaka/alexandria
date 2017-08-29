@@ -11,14 +11,19 @@ import {ItemsServiceService } from '../shared/service/items-service.service'
 export class ItemsComponent implements OnInit {
   id: string;
   reports;
+  report_items = [];
+  title: string;
 
   constructor(
     private route: ActivatedRoute,
     private itemsServiceService: ItemsServiceService
-  ) { }
+  ) {
+    this.getURLParameter();
+
+  }
 
   ngOnInit() {
-    this.getURLParameter();
+
     // this.getReports(this.id);
   }
 
@@ -36,6 +41,8 @@ export class ItemsComponent implements OnInit {
       for(var i = 0; i < data.length; i++){
         if(data[i].id === id){
           this.reports = data[i];
+          this.title = this.reports.title;
+          this.report_items = this.reports.report_items;
         }
       }
     });

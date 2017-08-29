@@ -2,3 +2,20 @@
   margin-top: 100px;
   padding-bottom: 100px;
 }
+/*
+* Heading style
+*/
+
+.title-underline-base-color {
+    border-color: #ff1a56;
+}
+.title-underline-thick-base-color {
+    border-color: #ff1a56;
+}
+.title-sideline-base-color:before {
+    background-color: #ff1a56;
+}
+
+.bg-base-color {
+    background-color: #ff1a56 !important;
+}
