@@ -1,15 +1,26 @@
-<section class="jumbotron text-center">
-  <div class="container">
-    <h1 class="jumbotron-heading">Meet the team</h1>
-    <p class="lead">
-      We're a pun-loving team of folks who take our jobs seriously without taking ourselves too seriously. In everything we do, we strive to put the people we do it for first.
-    </p>
-  </div>
+<section id="home" class="bg-cover bg-black bg-overlay-black-5 h-100 w-100">
+    <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-lg-9 col-xl-7">
+                <h2 class="font-alt font-w-700 letter-spacing-2 m-0 mt-3 text-uppercase text-white title-xs-extra-large title-sm-extra-large-3 title-extra-large-4">
+                    Meet the team
+                </h2>
+                <span class="font-alt font-w-600 opacity-9-5 letter-spacing-2 text-large text-uppercase text-white">We're a pun-loving team of folks who take our jobs seriously without taking ourselves too seriously. In everything we do, we strive to put the people we do it for first.</span>
+                <span class="bg-base-color d-block mt-4 sep-line-extra-thick-long"></span>
+            </div>
+            <!-- //.col-lg-9 -->
+        </div>
+        <!-- //.row -->
+    </div>
+    <!-- //.container -->
 </section>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-4" *ngFor="let hero of heros">
-      <app-hero [hero]="hero"></app-hero>
+
+<div class="bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 hero-item" *ngFor="let hero of heros">
+        <app-hero [hero]="hero"></app-hero>
+      </div>
     </div>
   </div>
 </div>

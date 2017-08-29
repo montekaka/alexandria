@@ -17,7 +17,7 @@
 </section>
 <!-- //Section - Home End -->
 <!-- Section - Team Start -->
-<section id="team" class="bg-white">
+<div id="team" class="bg-white">
     <div class="container">
       <div class="row justify-content-center pb-4 pb-lg-5">
           <div class="col-lg-6 text-center">
@@ -27,7 +27,7 @@
           <!-- //.col-lg-6 -->
       </div>
       <div class="row">
-        <div class="col-lg-4" *ngFor="let hero of heros">
+        <div class="col-lg-4 hero-item" *ngFor="let hero of heros">
           <div class="box-shadow position-relative text-center">
             <div class="position-relative">
                 <img class="rounded-circle" src="{{hero.photo}}" alt="image" width="140" height="140">
@@ -41,4 +41,4 @@
         </div>
       </div>
     </div>
-</section>
+</div>

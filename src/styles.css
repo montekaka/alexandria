@@ -2,6 +2,7 @@
 * Theme
 */
 
+
 body,
 html {
     color: #000000;
@@ -21,8 +22,6 @@ a:focus {
 a[href^=tel] {
     color: inherit;
 }
-
-
 /*
 * Background color
 */
@@ -74,6 +73,11 @@ a[href^=tel] {
 /*
 * Background image
 */
+#home {
+    background-image: url("assets/img/rubik_background.jpg");
+}
+
+
 
 .bg-cover {
     background-position: center center !important;
@@ -2944,4 +2948,8 @@ section {
     .h-xs-100 {
         height: 100% !important;
     }
+}
+
+.hero-item{
+  margin-bottom: 20px;
 }

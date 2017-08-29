@@ -10,10 +10,13 @@ import {NavbarServiceService } from './navbar-service.service'
 export class NavbarComponent implements OnInit {
 
   navItems = [];
+  isNavbarCollapsed: boolean;
 
   constructor(
     private navbarServiceService: NavbarServiceService
-  ) { }
+  ) {
+    this.isNavbarCollapsed = true;
+  }
 
   ngOnInit() {
     // console.log(this.navbarServiceService.getData());
@@ -26,4 +29,10 @@ export class NavbarComponent implements OnInit {
     })
   }
 
+
+  NavigatorUserMediabarCollapse(){
+    if(this.isNavbarCollapsed === false){
+      this.isNavbarCollapsed = true;
+    }
+  }
 }

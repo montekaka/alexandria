@@ -1,4 +1,10 @@
-<img class="rounded-circle" src="{{hero.photo}}" alt="image" width="140" height="140">
-<h2>{{hero.name}}</h2>
-<p><span class="badge badge-pill badge-dark">{{hero.title}}</span></p>
-<p>{{hero.description}}</p>
+<div class="box-shadow position-relative text-center">
+  <div class="position-relative">
+      <img class="rounded-circle" src="{{hero.photo}}" alt="image" width="140" height="140">
+  </div>
+  <div class="bg-white border border-top-0 position-relative py-4 rounded-bottom">
+      <span class="d-block font-alt text-large">{{hero.name}}</span>
+      <span class="d-block text-gray-dark text-large text-underline">{{hero.title}}</span>
+      <p>{{hero.description}}</p>
+  </div>
+</div>
